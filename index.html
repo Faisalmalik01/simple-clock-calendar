@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Clock and Calendar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="clock">
+        <div class="time">
+            <div class="hours">0<span>0</span></div>
+            <div class="dots">:</div>
+            <div class="minutes">00</div>
+            <div class="psec">
+                <div class="period">AM</div>
+                <div class="seconds">00</div>
+            </div>
+        </div>
+        <div class="date">
+            <span class="day"></span>
+            <span class="month"></span>
+            <span class="year"></span>
+        </div>
+    </div>
+
+    <div class="calendar">
+        <h2>Calendar</h2>
+        <div id="calendarContainer" class="calendar-grid"></div>
+    </div>
+
+    <script src="clock.js"></script>
+    <script src="calendar.js"></script>
+    
+</body>
+</html>
